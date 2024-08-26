@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Primary;
 import java.util.Date;
 
 @Entity
+@Table(name = "task")
 public class Task {
 
     @Id

@@ -33,7 +33,7 @@ public class TaskDAOImpl implements TaskDAO{
     }
 
     @Override
-    public Task addTask(Task task) {
+    public Task save(Task task) {
         return entityManager.merge(task);
     }
 
